@@ -7,11 +7,11 @@ func main() {
 	fmt.Println("enter n:")
 	fmt.Scan(&n)
 
-	fmt.Println(tribonacciFuncSpaceOptimized(n))
+	fmt.Println(tribonacci(n))
 
 }
 
-func tribonacciFuncSpaceOptimized(n int) int {
+func tribonacci(n int) int {
 	if n == 0 {
 		return 0
 	}
